@@ -2,7 +2,7 @@
   "name": "ODMResonance.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ODMResonance.github.io/ODMResonance.github.io",
+  "homepage": "https://ODMResonance.github.io",
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.3.2",
