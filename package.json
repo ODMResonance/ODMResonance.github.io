@@ -1,8 +1,8 @@
 {
-  "name": "ODMResonance.github.io",
+  "name": "zeroopacity",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ODMResonance.github.io/ODMResonance.github.io",
+  "homepage": "https://ODMResonance.github.io/zeroopacity",
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.3.2",
