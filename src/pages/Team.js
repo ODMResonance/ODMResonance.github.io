@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-class SignUpForm extends Component {
+class Team extends Component {
   constructor() {
     super();
 
@@ -47,6 +47,7 @@ class SignUpForm extends Component {
               className="FormField__Input"
               placeholder="Enter your full name"
               name="name"
+              autoComplete="off"
               value={this.state.name}
               onChange={this.handleChange}
             />
@@ -61,6 +62,7 @@ class SignUpForm extends Component {
               className="FormField__Input"
               placeholder="Enter your password"
               name="password"
+              autoComplete="off"
               value={this.state.password}
               onChange={this.handleChange}
             />
@@ -75,6 +77,7 @@ class SignUpForm extends Component {
               className="FormField__Input"
               placeholder="Enter your email"
               name="email"
+              autoComplete="off"
               value={this.state.email}
               onChange={this.handleChange}
             />
@@ -107,4 +110,4 @@ class SignUpForm extends Component {
   }
 }
 
-export default SignUpForm;
+export default Team;

@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import { HashRouter as Router, Route, Link, NavLink } from "react-router-dom";
-import SignUpForm from "./pages/SignUpForm";
-import SignInForm from "./pages/SignInForm";
+import Team from "./pages/Team";
+import Individual from "./pages/Individual";
 
 import "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <Router basename="/react-auth-ui/">
+      <Router basename="/registration/">
         <div className="App">
           <div className="App__Aside">
             <div className="AsideHeading">Welcome to</div>
@@ -36,15 +36,15 @@ class App extends Component {
             <div className="FormHeading FormHeadingBold">REGISTRATION</div>
             <div className="FormTitle">
               <NavLink
-                to="/sign-in"
+                exact
+                to="/"
                 activeClassName="FormTitle__Link--Active"
                 className="FormTitle__Link"
               >
                 I am an Individual
               </NavLink>
               <NavLink
-                exact
-                to="/"
+                to="/team"
                 activeClassName="FormTitle__Link--Active"
                 className="FormTitle__Link"
               >
@@ -52,8 +52,8 @@ class App extends Component {
               </NavLink>
             </div>
 
-            <Route exact path="/" component={SignUpForm} />
-            <Route path="/sign-in" component={SignInForm} />
+            <Route exact path="/" component={Individual} />
+            <Route path="/team" component={Team} />
           </div>
         </div>
       </Router>
