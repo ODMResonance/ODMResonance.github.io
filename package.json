@@ -2,7 +2,7 @@
   "name": "zeroopacity",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ODMResonance.github.io/zeroopacity",
+  "homepage": "https://zeroopacity.com",
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.3.2",
